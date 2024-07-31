@@ -1,0 +1,10 @@
+{
+	"image": "gcc:14",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+	}
+}
