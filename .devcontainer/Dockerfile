@@ -1,5 +1,10 @@
 FROM gcc:14
 
-RUN apt update && apt install -y gdb cmake
+RUN apt update 
+RUN apt install -y \
+	gdb \
+	cmake \
+	ninja-build \
+	zsh
 
 ENTRYPOINT [ "tail", "-f" ]
