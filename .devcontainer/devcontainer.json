@@ -1,12 +1,15 @@
 {
-	"image": "gcc:14",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-vscode.cpptools-extension-pack",
 				"ms-vscode.makefile-tools",
 				"twxs.cmake",
-				"ms-vscode.cmake-tools"
+				"ms-vscode.cmake-tools",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
