@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the executable
-add_executable(MyCoroutineProject cpp20/coroutine/main.cpp cpp20/coroutine/mycoroutine.cpp)
+add_subdirectory(cpp20/coroutine)
+add_subdirectory(cpp20/ranges)
 
 # Include the directory for header files
 target_include_directories(MyCoroutineProject PUBLIC ${PROJECT_SOURCE_DIR}/include)
