@@ -3,7 +3,8 @@
     {
       "name": "Mac",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/usr/local/include/c++/14.2.0/"
       ],
       "defines": [],
       "cStandard": "c11",
