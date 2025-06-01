@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add the executable
 add_subdirectory(cpp20/coroutine)
 add_subdirectory(cpp20/ranges)
+add_subdirectory(learn_c++_by_example/chapter_2)
 
 # Include the directory for header files
 target_include_directories(coroutine PUBLIC ${PROJECT_SOURCE_DIR}/include)
