@@ -77,7 +77,10 @@
     "random": "cpp",
     "type_traits": "cpp",
     "utility": "cpp",
-    "format": "cpp"
+    "format": "cpp",
+    "coroutine": "cpp",
+    "deque": "cpp",
+    "cinttypes": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
